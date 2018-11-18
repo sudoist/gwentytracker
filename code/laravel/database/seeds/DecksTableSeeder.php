@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Deck;
 
 class DecksTableSeeder extends Seeder
 {
@@ -11,6 +12,15 @@ class DecksTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Deck::class, 5)->create();
+        DB::table('decks')->delete();
+        $json = File::get("database/data/decks.json");
+        $data = json_decode($json);
+        foreach ($data as $obj) {
+          Deck::create(array(
+            'group' => $obj->group,
+            'description' => $obj->description,
+            'data' => $obj->data,
+          ));
+        }
     }
 }

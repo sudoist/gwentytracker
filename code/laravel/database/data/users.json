@@ -1,0 +1,24 @@
+[
+    {
+        "id": "1",
+        "email": "admin@hotmail.com",
+        "first_name": "Sam",
+        "last_name": "Deering",
+        "password": "$2y$10$5dIuEeS1C4oKij41rYFBU.SXtaztO2XqHHvT/U3Mi9wB86znOcqY2"
+    },
+    {
+        "id": "2",
+        "email": "admin@WinonaRyder.com",
+        "first_name": "Winona",
+        "last_name": "Ryder",
+        "password": "$2y$10$5dIuEeS1C4oKij41rYFBU.SXtaztO2XqHHvT/U3Mi9wB86znOcqY2"
+    },
+    {
+        "id": "3",
+        "email": "admin@emmawatson.com",
+        "username": "emmawatson",
+        "first_name": "Emma",
+        "last_name": "Watson",
+        "password": "$2y$10$5dIuEeS1C4oKij41rYFBU.SXtaztO2XqHHvT/U3Mi9wB86znOcqY2"
+    }
+]

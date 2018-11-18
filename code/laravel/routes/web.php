@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $decks = \App\Deck::all();
+
+    return view('welcome')->withDecks($decks);
 });
 
 Auth::routes();

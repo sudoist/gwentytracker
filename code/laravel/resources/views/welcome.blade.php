@@ -21,7 +21,7 @@
             }
 
             .full-height {
-                height: 100vh;
+                /* height: 100vh; */
             }
 
             .flex-center {
@@ -41,7 +41,7 @@
             }
 
             .content {
-                text-align: center;
+                text-align: left;
             }
 
             .title {
@@ -60,6 +60,10 @@
 
             .m-b-md {
                 margin-bottom: 30px;
+            }
+            
+            li.cardList {
+                display: block;
             }
         </style>
     </head>
@@ -91,6 +95,34 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                </div>
+
+                <div class="decks">
+                    @foreach ($decks as $deck)
+
+                        <h3>Group: {{ $deck->group }}</h3>
+                        <h2>
+                            Deck {{ $loop->index+1 }} - 
+                            {{ $deck->data['deck']['current']['name'] }}
+                        </h2>
+                        <span>{{ $deck->description }}</span>
+                        <h3>Cards:</h3>
+
+                            @for (
+                                $cardIndex = 0;
+                                $cardIndex < count($deck->data['deck']['current']['cards']);$cardIndex++
+                            )
+
+                                <li class="cardList">
+                                    {{
+                                        $deck->data['deck']['current']['cards'][$cardIndex]['card']['name']}} 
+                                        x {{$deck->data['deck']['current']['cards'][$cardIndex]['amount']
+                                    }}
+                                </li>
+
+                            @endfor
+
+                    @endforeach
                 </div>
             </div>
         </div>

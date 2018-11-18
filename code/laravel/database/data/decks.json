@@ -1,0 +1,854 @@
+[
+    {
+        "group": "Scoiatel",
+        "description": "Listed here are the Scoiatel decks",
+        "data": {
+            "deck": {
+                "id": "0tcIY",
+                "owner": {
+                    "id": "VbsByL",
+                    "username": "tagreff",
+                    "__typename": "User"
+                },
+                "isFavorite": false,
+                "current": {
+                    "guide": "<p>This deck's is based on ST movement carsd's synergy with powerful row-stack punishers like Dragon's Dream and Regis.</p>\n<p></p>\n<p><strong>Card explanation:</strong></p>\n<p>Geralt:igni - very easy to setup a good igni with this deck</p>\n<p>Regis - easy to setup, can singlehandedly win you the game</p>\n<p>Dragon's Dream + Nivellen - core of this deck, very strong combo, your r3 finisher</p>\n<p>Milaen - very versatile card, can be used to remove engines, shut down swarm monsters, or to setup igni/regis.</p>\n<p>Ciaran - best lock card in the game, 5 poinst on the board + lock + move is nuts</p>\n<p>Milva - you don't have much points on the board with this deck, Milva can help you to solve this problem, also, immunity is one of the strongest mechanics in Gwent</p>\n<p>Witchers - points &amp; thinning, can be used as a finisher against heavy control decks or in a mirror matchup (however, you need last say to win in both matschups)</p>\n<p>Frenzied D'ao - removes an artifact, give you a lot of points on the board</p>\n<p></p>\n<p><strong>Card replacements:</strong></p>\n<p>Igni - can be replaced with Rag Nar Roog</p>\n<p>Frenzied D'ao - can be replaced with Dorregaray or Toruviel, but honestly, there is not much 8-provision cards that is good in this deck</p>\n<p>Crushing trap  - vulnurable to artifact removals, so if you see a lot of it in your games get rid of this card</p>\n<p></p>\n<p><strong>Tips:</strong></p>\n<p>Try to win r1 by playing witchers <strong>OR</strong> Milva, Igni, lacerate/Regis, drypass r2 to get last say, then crush your opponent with Dragon's Dream + Nivellen combo.</p>\n<p></p>\n<p>Use Brouver on vrihedd brigade, that immediately gives your 9 points and keeps it out of removal range, then use Strays or Dragoon on it, that combo gives you a lot of points in r1. </p>\n<p></p>\n<p>Always save Dragon's dream + Nivellen for r3.</p>\n<p></p>\n<p>Use witchers as a finisher against control decks, play it r1 against other decks</p>\n<p></p>\n<p>Brouver and Regis can be used in one turn, so you can line up a very huge Regis without giving your opponent ability to react and counter it</p>\n<p></p>\n<p></p>\n",
+                    "name": "[Guide] ST Brouver movement",
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "112102",
+                                "name": "Geralt: Igni",
+                                "color": "Gold",
+                                "rarity": "Legendary",
+                                "provision": 12,
+                                "strength": 2,
+                                "categories": [
+                                    "Witcher"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Destroy the highest unit(s) on an enemy row with a total of 15 or more power.\n",
+                                "image": "/cards/SMB0Ny.jpg",
+                                "slot": "/slots/SMB0Ny.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "112104",
+                                "name": "Regis",
+                                "color": "Gold",
+                                "rarity": "Legendary",
+                                "provision": 11,
+                                "strength": 2,
+                                "categories": [
+                                    "Vampire"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: Damage all enemies on a row by 1. If any were destroyed, repeat this ability.\n",
+                                "image": "/cards/kBlxRX.jpg",
+                                "slot": "/slots/kBlxRX.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "201637",
+                                "name": "Dragon's Dream",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 9,
+                                "strength": 0,
+                                "categories": [
+                                    "Alchemy"
+                                ],
+                                "ability": "Apply this row effect to an enemy row:\nAfter 3 turns, on turn start, explode and damage all units on this row by 3.\n",
+                                "image": "/cards/5k7q9M.jpg",
+                                "slot": "/slots/5k7q9M.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "200030",
+                                "name": "Milaen",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 9,
+                                "strength": 4,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 4.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Damage 4 enemies by 1.\n",
+                                "image": "/cards/ENsqSk.jpg",
+                                "slot": "/slots/ENsqSk.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "132405",
+                                "name": "Frenzied D'ao",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 8,
+                                "strength": 7,
+                                "categories": [
+                                    "Construct"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: Destroy an enemy artifact.\n",
+                                "image": "/cards/HLEM7v.jpg",
+                                "slot": "/slots/HLEM7v.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "200089",
+                                "name": "Nivellen",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 8,
+                                "strength": 5,
+                                "categories": [
+                                    "Beast",
+                                    "Cursed"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: Move all units from one row to the other row.\n",
+                                "image": "/cards/yDngq7.jpg",
+                                "slot": "/slots/yDngq7.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142206",
+                                "name": "Ciaran aep Easnillen",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 7,
+                                "strength": 5,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: <keyword=lock>Lock</keyword> a unit and move it to the other row.\n",
+                                "image": "/cards/0SWp8F.jpg",
+                                "slot": "/slots/0SWp8F.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "112202",
+                                "name": "Eskel",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 7,
+                                "strength": 4,
+                                "categories": [
+                                    "Witcher"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: <keyword=summon>Summon</keyword> Vesemir and Lambert from your deck to this row.\n",
+                                "image": "/cards/IhwaQR.jpg",
+                                "slot": "/slots/IhwaQR.jpg",
+                                "expansion": "Unmillable",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "153301",
+                                "name": "Lacerate",
+                                "color": "Bronze",
+                                "rarity": "Common",
+                                "provision": 7,
+                                "strength": 0,
+                                "categories": [
+                                    "Organic"
+                                ],
+                                "ability": "Damage all units on a row by 2.\n",
+                                "image": "/cards/7XUisP.jpg",
+                                "slot": "/slots/7XUisP.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "112204",
+                                "name": "Lambert",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 7,
+                                "strength": 4,
+                                "categories": [
+                                    "Witcher"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: <keyword=summon>Summon</keyword> Eskel and Vesemir from your deck to this row.\n",
+                                "image": "/cards/a-Dw4p.jpg",
+                                "slot": "/slots/a-Dw4p.jpg",
+                                "expansion": "Unmillable",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142104",
+                                "name": "Milva",
+                                "color": "Gold",
+                                "rarity": "Legendary",
+                                "provision": 7,
+                                "strength": 4,
+                                "categories": [
+                                    "Human"
+                                ],
+                                "ability": "<keyword=immune>Immune</keyword>.\nBoost self by 1 whenever you play a Scoia'tael unit.\n",
+                                "image": "/cards/B3aubW.jpg",
+                                "slot": "/slots/B3aubW.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "112203",
+                                "name": "Vesemir",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 7,
+                                "strength": 4,
+                                "categories": [
+                                    "Witcher"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: <keyword=summon>Summon</keyword> Eskel and Lambert from your deck to this row.\n",
+                                "image": "/cards/_P3stN.jpg",
+                                "slot": "/slots/_P3stN.jpg",
+                                "expansion": "Unmillable",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "201645",
+                                "name": "Crushing Trap",
+                                "color": "Bronze",
+                                "rarity": "Rare",
+                                "provision": 6,
+                                "strength": 0,
+                                "categories": [
+                                    "Trap"
+                                ],
+                                "ability": "<keyword=ambush>Ambush</keyword>: After 3 turns, on turn start, damage all enemy units on the row with the most units by 2. \n<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Flip over and damage all units on a row by 1.\n",
+                                "image": "/cards/IIItHc.jpg",
+                                "slot": "/slots/IIItHc.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142302",
+                                "name": "Vrihedd Brigade",
+                                "color": "Bronze",
+                                "rarity": "Rare",
+                                "provision": 6,
+                                "strength": 3,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: Damage a random enemy by 2.\nWhenever Vrihedd Brigade is moved to the other row, repeat its <keyword=deploy>Deploy</keyword> ability.\n",
+                                "image": "/cards/hTHf5e.jpg",
+                                "slot": "/slots/hTHf5e.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 2,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "113319",
+                                "name": "Dimeritium Shackles",
+                                "color": "Bronze",
+                                "rarity": "Common",
+                                "provision": 5,
+                                "strength": 0,
+                                "categories": [
+                                    "Alchemy"
+                                ],
+                                "ability": "<keyword=lock>Lock</keyword> a unit and damage it by 3.\n",
+                                "image": "/cards/BLBQsL.jpg",
+                                "slot": "/slots/BLBQsL.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142310",
+                                "name": "Dol Blathanna Archer",
+                                "color": "Bronze",
+                                "rarity": "Common",
+                                "provision": 5,
+                                "strength": 3,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 2.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Damage 2 units by 1.\n",
+                                "image": "/cards/NAxRVn.jpg",
+                                "slot": "/slots/NAxRVn.jpg",
+                                "expansion": "Unmillable",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 2,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "200039",
+                                "name": "Dol Blathanna Sentry",
+                                "color": "Bronze",
+                                "rarity": "Common",
+                                "provision": 5,
+                                "strength": 3,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=melee>Melee</keyword>: Whenever an enemy is moved to the other row, damage it by 1.\n<keyword=ranged>Ranged</keyword>: Whenever an ally is moved to the other row, boost it by 1.\n",
+                                "image": "/cards/m4dbPw.jpg",
+                                "slot": "/slots/m4dbPw.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "202121",
+                                "name": "Strays of Spalla",
+                                "color": "Bronze",
+                                "rarity": "Rare",
+                                "provision": 5,
+                                "strength": 4,
+                                "categories": [
+                                    "Human",
+                                    "Bandit"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: Move a unit to the other row.\n",
+                                "image": "/cards/70A7h1.jpg",
+                                "slot": "/slots/70A7h1.jpg",
+                                "expansion": "Thronebreaker",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 2,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142303",
+                                "name": "Vrihedd Officer",
+                                "color": "Bronze",
+                                "rarity": "Common",
+                                "provision": 5,
+                                "strength": 2,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 3.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Boost an ally by 3.\n",
+                                "image": "/cards/oSFnDy.jpg",
+                                "slot": "/slots/oSFnDy.jpg",
+                                "expansion": "Unmillable",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 2,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142205",
+                                "name": "Vrihedd Dragoon",
+                                "color": "Bronze",
+                                "rarity": "Common",
+                                "provision": 4,
+                                "strength": 4,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Move an enemy unit to their other row.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Move an allied unit to your other row.\n",
+                                "image": "/cards/NHcnLD.jpg",
+                                "slot": "/slots/NHcnLD.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 2,
+                            "__typename": "GwentDeckCardInformation"
+                        }
+                    ],
+                    "leader": {
+                        "id": "200167",
+                        "name": "Brouver Hoog",
+                        "color": "Leader",
+                        "slot": "/slots/Ig6v6B.jpg",
+                        "categories": [
+                            "Leader"
+                        ],
+                        "image": "/cards/Ig6v6B.jpg",
+                        "ability": "<keyword=order>Order</keyword>: Move a unit to the other row. If it's an enemy, damage it by 2",
+                        "__typename": "GwentCard"
+                    },
+                    "__typename": "GwentDeckSnapshot"
+                },
+                "__typename": "GwentDeck"
+            }
+        }    
+    },
+    {
+        "group": "Scoiatel",
+        "description": "Listed here are the Scoiatel decks 222222222",
+        "data": {
+            "deck": {
+                "id": "zjmIh",
+                "owner": {
+                    "id": "fC_-8M",
+                    "username": "Savarog",
+                    "__typename": "User"
+                },
+                "isFavorite": false,
+                "current": {
+                    "guide": "<p>Eithnes pings and plenty of odd number damage pings for setting up Shirru, scorch &amp; wolfsbane. <br /><br />Call of the forest puts shirru at 5 &amp; preferably gets used on Aelirenn, so she pops back to your board once turn ends.<br /><br />Ithlinne is used on shirru, if he is in your hand.<br /><br />I like the scorch list over Igni alot.. usually wins vs MO Tall.<br /><br />1 Sapper + Ida is typically enough to beat the odd artifact deck youll see.<br /><br />Prioritize winning R1, hopefully only using one of Wolfsbane/Shirru/Scorch. Which one you want to drop depends on matchups. Predict what their R3 gameplan is and play accordingly.</p>\n",
+                    "name": "Eithne Control Elves",
+                    "cards": [
+                        {
+                            "card": {
+                                "id": "142107",
+                                "name": "Ithlinne Aegli",
+                                "color": "Gold",
+                                "rarity": "Legendary",
+                                "provision": 11,
+                                "strength": 5,
+                                "categories": [
+                                    "Elf",
+                                    "Mage"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: Boost a Scoia'tael unit in your hand by 4.\n",
+                                "image": "/cards/7Bo0H_.jpg",
+                                "slot": "/slots/7Bo0H_.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142108",
+                                "name": "Schirrú",
+                                "color": "Gold",
+                                "rarity": "Legendary",
+                                "provision": 11,
+                                "strength": 2,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=zeal>Zeal</keyword>.\n<keyword=order>Order</keyword>: Destroy all other units with the same power as Schirrú.\n",
+                                "image": "/cards/5j8iV3.jpg",
+                                "slot": "/slots/5j8iV3.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "113309",
+                                "name": "Scorch",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 11,
+                                "strength": 0,
+                                "categories": [
+                                    "Spell"
+                                ],
+                                "ability": "Destroy the highest unit(s).\n",
+                                "image": "/cards/43xp4a.jpg",
+                                "slot": "/slots/43xp4a.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142211",
+                                "name": "Aelirenn",
+                                "color": "Gold",
+                                "rarity": "Legendary",
+                                "provision": 9,
+                                "strength": 5,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "If on turn end you control 5 or more Elf allies, <keyword=summon>Summon</keyword> this unit from your deck to the melee row.\n",
+                                "image": "/cards/NfSr3H.jpg",
+                                "slot": "/slots/NfSr3H.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "201779",
+                                "name": "Call of the Forest",
+                                "color": "Gold",
+                                "rarity": "Legendary",
+                                "provision": 9,
+                                "strength": 0,
+                                "categories": [],
+                                "ability": "Shuffle an allied unit into your deck, then play a unit with the same primary category from your deck and boost it by 3.\n",
+                                "image": "/cards/tdffJy.jpg",
+                                "slot": "/slots/tdffJy.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "200030",
+                                "name": "Milaen",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 9,
+                                "strength": 4,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 4.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Damage 4 enemies by 1.\n",
+                                "image": "/cards/ENsqSk.jpg",
+                                "slot": "/slots/ENsqSk.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142202",
+                                "name": "Ida Emean aep Sivney",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 8,
+                                "strength": 4,
+                                "categories": [
+                                    "Elf",
+                                    "Mage"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Destroy an artifact.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Boost a unit by 3.\n",
+                                "image": "/cards/Fr2Rbq.jpg",
+                                "slot": "/slots/Fr2Rbq.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "200226",
+                                "name": "Wolfsbane",
+                                "color": "Gold",
+                                "rarity": "Legendary",
+                                "provision": 8,
+                                "strength": 0,
+                                "categories": [
+                                    "Alchemy"
+                                ],
+                                "ability": "Damage all enemies with even power by 2, or damage all enemies with odd power by 2.\n",
+                                "image": "/cards/VfGldZ.jpg",
+                                "slot": "/slots/VfGldZ.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142206",
+                                "name": "Ciaran aep Easnillen",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 7,
+                                "strength": 5,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: <keyword=lock>Lock</keyword> a unit and move it to the other row.\n",
+                                "image": "/cards/0SWp8F.jpg",
+                                "slot": "/slots/0SWp8F.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "112202",
+                                "name": "Eskel",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 7,
+                                "strength": 4,
+                                "categories": [
+                                    "Witcher"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: <keyword=summon>Summon</keyword> Vesemir and Lambert from your deck to this row.\n",
+                                "image": "/cards/IhwaQR.jpg",
+                                "slot": "/slots/IhwaQR.jpg",
+                                "expansion": "Unmillable",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "112204",
+                                "name": "Lambert",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 7,
+                                "strength": 4,
+                                "categories": [
+                                    "Witcher"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: <keyword=summon>Summon</keyword> Eskel and Vesemir from your deck to this row.\n",
+                                "image": "/cards/a-Dw4p.jpg",
+                                "slot": "/slots/a-Dw4p.jpg",
+                                "expansion": "Unmillable",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "112203",
+                                "name": "Vesemir",
+                                "color": "Gold",
+                                "rarity": "Epic",
+                                "provision": 7,
+                                "strength": 4,
+                                "categories": [
+                                    "Witcher"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: <keyword=summon>Summon</keyword> Eskel and Lambert from your deck to this row.\n",
+                                "image": "/cards/_P3stN.jpg",
+                                "slot": "/slots/_P3stN.jpg",
+                                "expansion": "Unmillable",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142310",
+                                "name": "Dol Blathanna Archer",
+                                "color": "Bronze",
+                                "rarity": "Common",
+                                "provision": 5,
+                                "strength": 3,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 2.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Damage 2 units by 1.\n",
+                                "image": "/cards/NAxRVn.jpg",
+                                "slot": "/slots/NAxRVn.jpg",
+                                "expansion": "Unmillable",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 2,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142314",
+                                "name": "Dol Blathanna Bowman",
+                                "color": "Bronze",
+                                "rarity": "Rare",
+                                "provision": 5,
+                                "strength": 3,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: Damage an enemy by 1 for each row that separates it from this unit.\n",
+                                "image": "/cards/n4UfQo.jpg",
+                                "slot": "/slots/n4UfQo.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 2,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142303",
+                                "name": "Vrihedd Officer",
+                                "color": "Bronze",
+                                "rarity": "Common",
+                                "provision": 5,
+                                "strength": 2,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 3.\n<keyword=deploy>Deploy</keyword>, <keyword=ranged>Ranged</keyword>: Boost an ally by 3.\n",
+                                "image": "/cards/oSFnDy.jpg",
+                                "slot": "/slots/oSFnDy.jpg",
+                                "expansion": "Unmillable",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 2,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142307",
+                                "name": "Vrihedd Sappers",
+                                "color": "Bronze",
+                                "rarity": "Rare",
+                                "provision": 5,
+                                "strength": 4,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: If you have an Elf in your hand, destroy an enemy artifact.\n",
+                                "image": "/cards/NNoYPj.jpg",
+                                "slot": "/slots/NNoYPj.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 1,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142309",
+                                "name": "Vrihedd Vanguard",
+                                "color": "Bronze",
+                                "rarity": "Rare",
+                                "provision": 5,
+                                "strength": 1,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: Boost self by 1 for each Elf in your hand.\n",
+                                "image": "/cards/MeSkSk.jpg",
+                                "slot": "/slots/MeSkSk.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 2,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "200535",
+                                "name": "Elven Swordmaster",
+                                "color": "Bronze",
+                                "rarity": "Rare",
+                                "provision": 4,
+                                "strength": 3,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=order>Order</keyword>, <keyword=melee>Melee</keyword>: Damage an enemy by 1.\n<keyword=cooldown>Cooldown</keyword>: 2.\nWhenever you play an Elf, decrease <keyword=cooldown>Cooldown</keyword> by 1.\n",
+                                "image": "/cards/JfUpzw.jpg",
+                                "slot": "/slots/JfUpzw.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 2,
+                            "__typename": "GwentDeckCardInformation"
+                        },
+                        {
+                            "card": {
+                                "id": "142401",
+                                "name": "Scoia'tael Neophyte",
+                                "color": "Bronze",
+                                "rarity": "Rare",
+                                "provision": 4,
+                                "strength": 2,
+                                "categories": [
+                                    "Elf"
+                                ],
+                                "ability": "<keyword=deploy>Deploy</keyword>: <keyword=spawn>Spawn</keyword> and <keyword=summon>Summon</keyword> a base copy of this unit to the other allied row.\n",
+                                "image": "/cards/oZgqEh.jpg",
+                                "slot": "/slots/oZgqEh.jpg",
+                                "expansion": "Homecoming",
+                                "__typename": "GwentCard"
+                            },
+                            "amount": 2,
+                            "__typename": "GwentDeckCardInformation"
+                        }
+                    ],
+                    "leader": {
+                        "id": "200166",
+                        "name": "Eithné",
+                        "color": "Leader",
+                        "slot": "/slots/5BGeMx.jpg",
+                        "categories": [
+                            "Leader"
+                        ],
+                        "image": "/cards/5BGeMx.jpg",
+                        "ability": "<keyword=order>Order</keyword>: Damage a unit by 1.\n<keyword=charge>Charge</keyword>: 3.\nOn round start, refresh Eithné's <keyword=charge>Charge</keyword> count.\n",
+                        "__typename": "GwentCard"
+                    },
+                    "__typename": "GwentDeckSnapshot"
+                },
+                "__typename": "GwentDeck"
+            }
+        }
+    }
+]
